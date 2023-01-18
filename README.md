@@ -1,11 +1,11 @@
 # GA-Capstone-Project
 
-# Problem Statement
+# Background
 The dataset contains metadata for all 45,000 movies listed in the full MovieLens dataset released on or before July 2017. Movie features includes cast, plot keywords and vote counts/averages obtained via the TMDB Open API. It also contains 26 million ratings from 270,000 users for all 45,000 movies. Ratings are on a scale of 1-5 and have been obtained from the official GroupLens website.<br>
 
 [Source of dataset: Kaggle](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
 
-# Background
+# Problem Statement
 
 Recommender systems are used widely these days. It is used to provide better suggestions to customers which in turn drive sales and reduce churn rate to allow customer retention. <br>
 
