@@ -58,10 +58,14 @@ The aim of this project is to build various movie recommender systems and study 
 
 # Summary of Analysis
 
+Summary here <br>
+
 # Conclusion/Recommendations
 
+Conclusion here <br>
+
 Limitations: <br>
-- 
+- Limitations here <br>
 
 Recommendations: <br>
-1. 
+1. Recommendations here <br>
