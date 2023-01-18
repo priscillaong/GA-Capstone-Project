@@ -58,14 +58,12 @@ The aim of this project is to build various movie recommender systems and study 
 
 # Summary of Analysis
 
-Summary here <br>
+Model-based collaborative filtering using the matrix factorization method SVD performed the best with a RMSE score of 0.87 when compared to NMF and memory-based CF method and comparable when compared with DNN.
 
-# Conclusion/Recommendations
+# Conclusion/Limitations
 
-Conclusion here <br>
+In our project, we analyse basic, content-based and collaborative filtering movie recommendater systems. Basic movie recommender systems uses a weighted rating formula to come up with top movies chart or top movies in each genre list. However, this type of recommender system is not unique to user preference. Content-based filtering considers the movie attributes of the movie which the user is fond of to come up with recommendations for user. In our project, we utilise the title, overview, tagline, genre, keywords of plot and movie cast and apply TF-IDF and consine similarities to determine which movies users will like. However, there is the issue of cold-start, it does not takes into account other users' preference and determining what characteristics of the item the user dislikes or likes is not usually obvious. In collaborative filtering, all the users are taken into consideration and people with similar tastes and preferences are used to suggest new and specific products to the primary user. In our project,  we utilised memory and model based method. Model-based method SVD and DNN proved to perform the best based on the lowest RMSE score of 0.87. However, collaborative filtering has issues with data sparsity if there is no sufficient historical data and scalability when a decrease in performance is inevitable with increase amount of data.
 
-Limitations: <br>
-- Limitations here <br>
+# Recommendations
 
-Recommendations: <br>
-1. Recommendations here <br>
+To come up with a hybrid recommender system combining both content-based and collaborative filtering.
